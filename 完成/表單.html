@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin:0 auto;
+}
+.person{
+   margin-left: 32px;
+}
+.bot{
+    margin-left: 202px;
+}
+
+    </style>
+</head>
+<body>
+   <form>
+       <label for="mail">電子信箱:</label>
+       <input type="text" id="mail"placeholder="請輸入信箱"name="mail"/><br>
+       <div class="person">
+       <label for="person" >姓名:</label>
+       <input type="text" id="person" placeholder="請輸入姓名"name="person"/><br>
+       </div>
+       <input type="submit" value="提交" class="bot"/>
+       
+       </form>
+       <form>
+       <br>
+       <h2>性別</h2>
+       <input type="radio" name="sex" value="male"/>男生
+       <input type="radio" name="sex" value="woman"/>女生
+       
+       <h2>興趣</h2>
+       <input type="checkbox" name="hobby" value="movie"/>看電影
+       <input type="checkbox" name="hobby" value="music"/>聽音樂
+       <input type="checkbox" name="hobby" value="comicbook"/>看漫畫
+       <input type="submit" value="提交"/>
+       
+       </form>
+       <form>
+        <br>
+       <label for="birth">生日:</label>
+       <select name="birth" id="birth" >
+           <option value="1985">1985</option>
+           <option value="1986">1986</option>
+           <option value="1987">1987</option>
+       </select>
+       <br>
+       <label for="content">內容:</label><br>
+      <textarea name="content" id="content" rows="10" cols="20"></textarea>
+       
+   </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 2 Css</title>
+   
+    <style>
+        h1{
+    color:purple;
+    font-size:50px;
+}
+p{
+    color:red;
+    font-size:25px;
+    font-family: Arial; /*字體*/
+    line-height:1.7;    /*行距*/
+    text-align:center;  /*置中  right靠右  left靠左*/
+    text-indent: 36px;  /*首行縮排 一個字元18px*/
+    text-decoration: line-through; /*中底線 underline是下底線 none是去底線*/
+    border:20px red solid;/*大小 顏色 實心   虛線dashed  圓點dotted*/
+    
+}
+
+.style1{
+    color: pink;
+    font-size: 38px;
+}
+     /*:hover 滑過去會做改變 擬態選擇器一種*/
+.style1:hover{
+    color:green;
+}
+.style2{
+    color:blue;
+    font-size: 33px;
+}
+       /*:active 按住不放會做改變*/
+.style2:active{
+    color:orange;
+}
+a{
+    font-size: 99px;
+    border-bottom:80px solid yellow; 
+}
+a:hover{
+    color:gray;
+    border-bottom:100px solid red; 
+}
+
+    </style>
+</head>
+<body>
+    <h1>標題</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+    dolor in hendrerit in vulputate velit esse molestie consequat,
+    vel illum dolore eu feugiat nulla facilisis at vero eros et
+    accumsan et iusto odio dignissim qui blandit praesent luptatum
+    zzril delenit augue duis dolore te feugait nulla facilisi.
+    Nam liber tempor cum soluta nobis eleifend option congue
+    nihil imperdiet doming id quod mazim placerat facer possim
+    assum. Typi non habent claritatem insitam; est usus legentis
+    in iis qui facit eorum claritatem. Investigationes
+    demonstraverunt lectores legere me lius quod ii legunt saepius.
+    Claritas est etiam processus dynamicus, qui sequitur mutationem
+    consuetudium lectorum. Mirum est notare quam littera gothica,
+    quam nunc putamus parum claram, anteposuerit litterarum formas
+    humanitatis per seacula quarta decima et quinta decima. Eodem
+    modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+    in futurum.</p>
+    <p class="style1">Hello the world</p>
+    <p class="style2">You should go to learn</p>
+    <a href="#">Today is a good day</a>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin:0 auto;
+    width: 1020px;
+    position:relative;
+    
+}
+h1{
+    padding:20px;
+    font-weight:900;
+    text-align:center;
+    font-size:23px;
+    margin-bottom: 10px;
+
+   
+    
+}
+.box th,.box td{
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    text-align:left;
+    font-family:verdana;
+    padding:20px 80px 20px 80px;
+}
+.box th{
+    
+    font-weight:900;
+}
+
+span{
+    color:#42b392;
+}
+.box2{
+    background-image: url(img/bg.png);
+    width: 1001px;
+    height: 405px;
+    margin-left: 19px;
+}
+.toph2 {
+    color:white;
+    font-size:30px;
+    text-align:center;
+    padding:20px;
+    font-family:verdana;
+    font-weight:900;
+}
+.second2{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    font-family:verdana;
+    font-weight:900;
+}
+.content{
+    width: 450px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top:  40px;
+}
+.box3{
+    width: 500px;
+    height: 250px;
+    margin-top:  40px;
+    position:absolute;
+    right:0px;
+    bottom:15px;
+    margin-right: 10px;
+}
+input{
+    width: 480px;
+    border-radius:8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    
+}
+label{
+    color:white;
+    display:block;
+}
+.right{
+    font-size:20px;
+    font-family:verdana;
+    font-weight:800;
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box">
+           
+    <table>
+         <h1>線上及實體課程的差異</h1>
+        <tr>
+            <th>項目</th>
+            <th>六角線上課程</th>
+            <th>一般線上課程</th>
+            <th>實體課程</th>
+        </tr>
+        <tr>
+            <td>費用</td>
+            <td><span>較低</span></td>
+            <td><span>較低</span></td>
+            <td>較高</td>
+        </tr>
+        <tr>
+            <td>學習效果</td>
+            <td>一般</td>
+            <td><span>較低</span></td>
+            <td><span>很好</span></td>
+        </tr>
+        <tr>
+            <td>Code review</td>
+            <td><span>有</span></td>
+            <td>無</td>
+            <td>不一定</td>
+        </tr>
+        <tr>
+            <td>課程更新速度</td>
+            <td><span>普通</span></td>
+            <td><span>普通</span></td>
+            <td>較慢</td>
+        </tr>
+        <tr>
+            <td>多次複習</td>
+            <td><span>可</span></td>
+            <td>可</td>
+            <td>不一定</td>
+        </tr>
+        <tr>
+            <td>字幕</td>
+            <td><span>有</span></td>
+            <td>不一定</td>
+            <td>板書</td>
+        </tr>
+    </table>
+     </div>
+     <div class="box2">
+         <div class="toph2">
+         <h2>對我們的課程有興趣嗎?</h2>
+         </div>
+         <h2 class="second2">歡迎留下您的資料</h2>
+         <form>
+         <textarea   name="message"class="content"rows:"63"clos:"100"></textarea>
+         </form>
+        <div class="box3">
+        <form class="right">
+             <label for="person">姓名:</label>
+             <input type="text" placeholder="請輸入姓名" id="person"name="person"/>
+             <label for="phone">電話:</label>
+             <input type="tel" placeholder="請輸入電話" id="phone"name="person"/>
+             <label for="mail">信箱:</label>
+             <input type="email" placeholder="請輸入信箱" id="mail"name="person"/>
+          </div>   
+         </form>
+         
+         
+     </div>
+    </div>
+</body>
+</html>

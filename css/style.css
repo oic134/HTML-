@@ -1,0 +1,233 @@
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width: 1000px;
+    margin:0 auto;
+    
+}
+.header{
+    height: 90px;
+}
+.logo1{
+    float:left;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.clearfix{
+    clear:both;
+}
+.fb-border{
+    border-right:1px solid gray;
+}
+.fb-border span{
+    color:#5c74ab;
+}
+.twitter-border span{
+    color:#94d8f2;
+}
+.menu1{
+  padding-top:15px;
+
+}
+.menu1 li a{
+    padding:5px 10px 5px 10px;
+    text-align:center;
+    text-decoration:none;
+    font-family:verdana;
+}
+.menu2 li a{
+    padding:5px 18px 5px 18px;
+    text-align:center;
+    text-decoration:none;
+    color: #22d3a7;
+}
+.menu2 li a:hover{
+    border-bottom:3px solid #22d3a7;;
+}
+.menu1 li,.menu2 li{
+    float:right;
+}
+.topmenu{
+    background-image: url(../img/banner.png);
+    width: 1000px;
+    height: 346px;
+    position:relative;
+}
+.topmenu1{
+    position:absolute;
+    background-image: url(../img/banner-rect.png);
+    top:100px;
+    height: 180px;
+    width: 1000px;
+}
+.topmenu1-h1 {
+    color:white;
+    font-size:40px;
+    padding:30px;
+}
+.topmenu1-h2{
+    margin-top: 20px;
+}
+.content li{
+    float:left;
+    width: 250px;
+    text-align:center;
+    padding:20px;
+    border-bottom:1px solid gray ;
+    margin:10px 5px 10px 23px;
+    height: 308px;
+}
+
+.content h2{
+    font-family:verdana;
+    font-weight:bold;
+     line-height:1.5;
+}
+.content p{
+    line-height:1.5;
+    text-align:left;
+}
+
+.footer h1{
+    font-size:40px;
+    font-family:verdana;
+    text-align:center;
+    font-weight:900;
+    padding:30px;
+}
+.footer th, td{
+    border-top:1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding:20px 70px 20px 70px;
+    text-align:left;
+   
+}
+.footer th{
+    font-weight: 800;
+    font-size:20px;
+}
+.footer span{
+    color:#00a67d;
+}
+.footer-box2{
+    background-image: url(../img/bg.png);
+    width: 1000px;
+    height: 405px;
+    margin-top: 50px;
+}
+.footer-box2 h2,h3{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    font-weight:900;
+    font-family:verdana;
+}
+.footer h2{
+    padding:35px 10px 20px 10px;
+}
+.textbox{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 450px;
+    height: 250px;
+}
+.footer-box3{
+    position:relative;
+    width: 300px;
+    
+}
+.footer-box4{
+  position:absolute;
+  left:500px;
+  top:15px;
+  width: 400px;
+  height:250px;
+  
+  
+}
+.footer-box4 label{
+    color:white;
+    font-size:20px; 
+    
+}
+.input-1{
+    width: 480px;
+    font-size:20px;
+    border-radius:5px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 405px;
+    width: 80px;
+    border-radius:10px;
+    color:white;
+    background: #00cc99;
+    border:none;
+    padding:10px;
+}
+.btn:hover{
+    background: #01b386;
+}
+.footer-box5{
+    height: 100px;
+   
+}
+.footerimg{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.footer-box6{
+    float:right;
+    padding:20px;
+    font-size:15px;
+}
+.footer-box6 span{
+      color:#e12d80;
+}
